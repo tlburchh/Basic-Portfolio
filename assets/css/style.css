@@ -80,7 +80,7 @@ body{
     width: 100px;
     height:60px;
     color: #777777;
-    text-align: center;
+    /* text-align: center; */
 }
 #contact{
     border-left: 2px solid #a7a5a5;
@@ -103,3 +103,20 @@ body{
     color: #b3a8a8;
     border-top: #4aaaa5 10px solid;
 }
+
+/* for contact page */
+.name,
+.email,
+.message{
+    width: 900px;
+    margin: 10px 30px;
+    border: #463f3f solid 1px;
+    color: #777777;
+}
+.message{
+    /* height:250px; */
+}
+.submit{
+    background: #4aaaa5;
+}
+/* ----------- */
