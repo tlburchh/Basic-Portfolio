@@ -51,13 +51,26 @@ body{
     border-top: 1px solid #a7a5a5;
     
 }
+/* for portfolio images */
+.row::after {
+    content: "";
+    clear: both;
+    display: table
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+}
+/* -------------- */
+
 .links{
     position: fixed;
     top:50px;
     right:5%;
     background: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
+    font-size: 20px;
    
 }
 #contact,
@@ -67,6 +80,7 @@ body{
     width: 100px;
     height:60px;
     color: #777777;
+    text-align: center;
 }
 #contact{
     border-left: 2px solid #a7a5a5;
