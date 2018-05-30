@@ -25,11 +25,12 @@ body{
 }
 .header-1{
     position: fixed;
-    top:31px;
+    top:42px;
     left: 20%;
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    /* padding: 20px 10px 3px 30px; */
+    font-size: 30px;
+    padding: 20px 10px 15px 30px;
     width: 300px;
     color: #ffffff;
     text-align: center;
