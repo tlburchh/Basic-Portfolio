@@ -81,13 +81,17 @@ body{
     width: 100px;
     height:60px;
     color: #777777;
+    /* padding: 0px 15px; */
     /* text-align: center; */
 }
 #contact{
     border-left: 2px solid #a7a5a5;
+    padding: 0px 15px;
+
 }
 #portfolio{
     border-left: 2px solid #a7a5a5;
+    padding: 0px 15px;
   
 }
 #index{
